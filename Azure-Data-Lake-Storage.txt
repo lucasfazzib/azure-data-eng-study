@@ -1,0 +1,10 @@
+#2
+
+
+    - O Azure Data Lake Storage é um sistema de arquivos totalmente gerenciado, elástico, escalável e seguro que
+    suporta a semantica HDFS e trabalha com o ecossistema HADOOP.
+
+    - Não é um recurso tão caro.
+
+
+    

@@ -1,0 +1,85 @@
+#01
+
+
+- O Azure Data Factory é um serviço de nuvem gerenciado que foi criado para esses projetos híbridos complexos
+para extrair, transformar e carregar (ETL), extrair, carregar e transformar (ELT) e integração de Dados.
+
+- Não é necessário código nem manutenção para criar pipelines ETL e ELT hibridos dentro do ambiente
+visual do Data Factory.
+
+- Ferramenta de integração de dados de nuvem sem servidor economica e totalmente gerenciada que é 
+escalada sob demanda.
+
+- Medidas de segurança do Azure para conectar-se a aplicativos locais, baseados em nuvem e de software 
+como serviço com tranquilidade.
+
+- SSIS integration runtime para hospedar novamente pacotes SSIS locais com facilidade na nuvem usando 
+ferramentas classicas do SSIS. ( Faz com que o data factory plugue no on premise para conseguir acessar os 
+dados, necessario estar de baixo da rede do cliente ou vpn)
+
+- Integration runtime
+    - Utilizado para acessar os dados de ambientes on premise
+    - Quando voce cria um INTEGRATION RUNTIME ele gera as chaves para entrar na VM de baixo da rede do cliente
+    que tenha acesso ao ambiente ON PREMISE, faz a instalaçao do integration runtime com as chaves ou
+    pode clicar direto no setup pra configurar automaticamente.
+    - Logo após ele pluga o INTEGRATION RUNTIME na vm do cliente, com o DATA Factory.
+
+- Ferramentas 
+    - LINKED SERVICE
+    - PIPELINE
+    - SOURCE
+    - ACTIVITY
+    - DATA FLOW
+
+
+    - Para criação é necessário primeiro criar um RESOURCE_GROUP
+        -Todos os recursos que serao deployados na Azure necessitam estar dentro de um Resource_Group.
+    
+    - Após deployado o Data Factory é so clicar nele e ir em overview > Author & monitor
+
+    - Sera aberto uma nova tela do data-factoring
+
+- Extração de dados no Data Factory
+    -Manage
+        - Integration Runtimes
+            - AutoResolveIntegrationRuntime
+                - Maquina que ja vem com a maioria das conexoes com as fontes e os destinos.
+
+            - Quando voce tem um recurso ON PREMISE é necessário instalar uma INTEGRATION
+            RUNTIME SELF-HOSTED
+                - Com o SELF HOSTED podemos conectar a uma maquina que tem acesso aos dados ON PREMISES
+
+    - Git Configuration
+        - Conseguimos configurar um repositorio git, podendo armazenar toda alteração que aocntece
+        dentro do data factoring em um repositorio github.
+        
+        - Controle de versão pode ser configurado.
+        
+        - Utilizar esse controle de versão para criar uma outra data factoring baseada em estado
+        anterior da Fábrica atual.
+        
+        - Caso não for utilizar o controle de versão do git, vamos estar armazenando localmente dentro os
+        recursos e alterações, sendo assim não temos historico e nem como restaurar.
+
+
+    
+- Como funciona toda conexao do Integration Runtime nas origens e destinos ?
+- DATA FACTORY
+    - Linked Services 
+        - Conexao com algum tipo de tecnologia
+        - Podendo ser mais de 80 conectores...
+        - Onde é criada a conexão com a fonte
+        - Primeiro criamos a conexao, escolhemos qual mauqina vai ser utilizada para se conectar na fonte,
+        como default é a de integrationRuntime.
+        - Inserir os dados de conexoes especificos...
+        - Criar a conexão com o Destino também ( data lake...azure blob storage..)
+        
+- AUTHORS
+    - ...
+
+
+
+
+
+
+

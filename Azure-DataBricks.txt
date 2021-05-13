@@ -1,0 +1,22 @@
+#3
+
+
+    - O Azure DataBricks é uma plataforma de análise baseada no Apache Spark otimizada para a plataforma de
+    serviços nuvem do Microsoft Azure.
+
+    - Também está de baix do azure, também da pra fazer dentro do databricks.
+
+    - Ambiente Spark rapido e otimizado.
+
+    - Workspace interativo com suporte interno para ferramentas populares, lignuagens...
+
+    - Aprendizado de maquina aprimorado em Bgi Data com integração nativa do Azure Mchine Learning.
+
+    - Faz parte do Data Warehousing moderno.
+
+
+    - Databricks Community
+        - Consegue criar algumas features gratuitas.
+        - Cluster derrubado de um dia pra outro.
+
+    

@@ -1,0 +1,31 @@
+AZURE
+
+
+
+Geografias
+
+
+    - 1 ou mais Regioes normalmente agrupados (America, asia...)
+    - Regioes são compostas por um ou mais datacenter que prove flexibilidade, escala e redução de 
+    latencia para preservar toda parte de compliance e dados de regiao apropriada.
+
+
+
+Subscriptions
+
+    - A base de tudo é a Subscription.
+    - Ela é composta por uma AZURE ACCOUNT, que é provida a partir de um TENANT do Azure AD para autorizar
+    todos os acessos pra voce.
+    - Onde cada Subscription tem seus limities de recursos controlados assim como seu limite de billing.
+
+Manage Groups
+
+    - Basicamente é onde é criado o mais alto nivel de controle, onde serao aplicadas politicas de 
+    governança para gerenciar toda arvore abaixo.
+
+
+Fluxo
+    - MANAGEMENT GROUPS -> SUBSCRIPTIONS -> RESOURCE GROUPS -> RESOURCES
+
+
+
