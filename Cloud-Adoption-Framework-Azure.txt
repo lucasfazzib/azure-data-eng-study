@@ -1,0 +1,42 @@
+- Framework de adoçao de nuvem
+
+
+
+    - Otimizado para o AZURE.
+    - Dividido em 6 etapas.
+
+    1) Definição da estratégia
+        - Entender os motivadores
+        - Porque voce vai adotar/implementar os seus serviços/Ambiente em nuvem
+        - Justificativa para gestore/cliente o porque
+        - Começar com pequenos projetos
+    
+    2) Plano de implementação  
+        - Criar o plano de implementação qeu vai ser provisionado.
+        - Quais são os skills necessários para implementar/provisionar o Azure
+
+    3) Ready
+        - Preparação inicial do ambiente cloud
+        - Onde começa realmente a implementação da primeira landing zone
+        - O que é necessário implementar primeiramente no AZURE.
+        - Realização de pequenos projetos até a migração total.
+
+    4) Governança e Planejamento
+        - Iniciar o ambiente implementando todas politicas de Governança e Manutenção.
+
+    ----------------------------------------------------------------------------------------------------
+
+
+- BLOCOS DE CONSTRUÇÃO
+
+    - AZURE LANDING ZONE
+
+        -
+
+
+
+
+
+
+
+

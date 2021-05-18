@@ -1,0 +1,31 @@
+Toda vez que pensamos em streaming existem varisa caracteristicas para entender.
+
+- Basicamente um streaming possui um dado com uma ingestão acontecendo e um consumo.
+
+- Event Hub
+    - Real time data ingestion
+    - Simples
+    - Seguro
+    - Escalavel
+    - Serverless
+    - 100% cloud native
+    - Milhoes de eventos por segundo
+
+
+- Esse dado vai chegar ou por meio de protocolos ou por aplicações em python, node.js, java. .....
+
+- Uma das caracteristicas legais do event hub é que ele é fully managed, ele consegue aumentar e diminuir
+o nivel de compute de acordo com o incoming.
+
+- Uma vez que esses dados entram e são garantidos que estao passadno pelo event hubs, podemos usar o Azure Stream analytics.
+    - Ele possui um conector automatico que conecta com o event hub, e conseguimos escreve em 
+    SQL em streaming, em um serviço completamente serverless.
+    - Podemos realizar machine learning no stream analytics tambem.
+    - Source: Event_hubs, Blob_storage...
+    - Destination: Data Lake, CosmosDB, Azure Funcitons, PowerBI.
+
+EVENT HUB:
+    - Use case: REAL TIME ou NEAR RAL TIME.
+
+STREAM ANALYTICS:
+    - Use case: Data Processing in REAL TIME dessa info do event hub.

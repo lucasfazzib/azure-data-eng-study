@@ -1,0 +1,43 @@
+Um container onde vamos armazenar os metadados de todos nossos recursos.
+
+
+Uma vez que temos um resourcegroup conseguimos segmentar os acessos.
+Tudo que for atribuido ao Resource Group serao atribuidos aos recursos na arvores
+
+Locks
+    Bloqueio para que não seja possivel apagar ou criar recursos quem nao possui a permissao.
+
+
+Move Resources
+    Movimentação de recursos para resource Groups.
+
+
+PLANEJAMENTO RESOURCE Group
+
+    Hierarquia de recursos  
+        -Management Group
+        - Subscription = default
+        - Resource Group
+        - Resources
+
+    Boas Práticas
+        Resource Groups por tipo de serviço
+            - Network
+            - Storage
+            - VMs
+            - Apps
+            - DATABASE
+
+        Resource Groups por Ambiente
+            - Desenvolvimento
+            - Homologação
+            - Produção
+        
+        Resource groups por tipo de serviço e ambiente
+            - Network
+            - Storage
+            - Desenvolvimento
+            - Homologação
+            - Produção
+
+

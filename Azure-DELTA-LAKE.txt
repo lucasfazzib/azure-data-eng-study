@@ -1,0 +1,46 @@
+
+- É um STORAGE Open Source de DADOS compativel com orkloads de APACHE SPARK
+
+- Padrao para processamento de dados
+
+
+
+
+DELTA ARCHITTECTURE ( SPARK COM DELTA)
+
+- INFORMAÇÕES SAEM DA FONTE E VAO PARA O DATA LAKE
+- POSTERIORMENTE COLOCAMOS DENTRO DE TABELAS BRONZE NO DATA LAKE
+- BRONZE É UMA NOMENCLATURA PARA SIMBOLIZAR QUE ESTAMOS CARREGANDO NO DATA LAKE OS DADOS RAW
+- DO DATA LAKE VAI PRO DELTA LAKE O DADO COMO É
+- ESSA INFORMAÇÃO É SANITIZADA DENTRO DO DELTA LAKE
+- ELA SAE DE UMA TABELA DELTA E VAI PARA OUTRA TABELA DELTA ALIMENTANDO TABELA SILVER, VOCE PODE AGREGAR VARIAS 
+    TABELAS BRONZE PARA CRIAR UMA SILVER.
+- POSTERIORMENTE É CRIADA TABELAS GOLD, OS NÍVEIS, SUAS DIMENSÕES, INFORMAÇÕES PARA ALIMENTAR TODO
+     O BUSINESS, PARA ALIMENTAR RELATIORISO ETC...
+
+
+
+CASE REAL:
+
+- Informações sobre os dispositivos da apple (telemetria) essas informações sao enviadas para dentro do 
+    data alke da apple.
+
+- Antes era feito assim:
+receber, compactar, dividir essas informações para poder carregar esses dados e fazer analytics.(muito doloroso)
+
+- Delta LAKE
+    - Capacidade de puxar os dados do DATA LAKE para o DELTA LAKE.
+    - Podemos plugar o spark (100% compativel%) para conectar, criar um spark streaming usando stream
+    para conectar na folder e de tempos em tempos quando cair arquivos la dentro o spark pode
+    puxar para dentro do DELTA LAKE ( bronze tables -> silver -> gold .....)
+    - Apos cair no delta lake nas bronze tables, podemos refinar os dados para as proximas camadas
+    silver, gold....
+    - Dados disponivei para os analistas realizarem consultas e dashboards...
+
+    - +- 504tb
+    - Como a gente analisa isso eficientemente ?
+        - Delta lake entra pra esse tipo de situação.
+        - Ao inves de olhar para esse dado todo, o delta lake providencia data skipping, com pedaços do dashboards..
+        
+
+

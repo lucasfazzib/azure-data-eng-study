@@ -1,0 +1,13 @@
+Boas práticas de Virtual Networks
+
+    - Definição de nomenclatura
+    - Definição de REGIÃO
+    - Definição de ADDRESS SPACE
+    - Definição de SEGMENTAÇÃO
+    - Definição de DNS
+    - Definição de ROTAS
+    - Definição de SEGURANÇA
+    - Definição de VPN
+
+
+

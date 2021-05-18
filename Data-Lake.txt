@@ -1,3 +1,12 @@
 - O que é um DATA LAKE ?
 
-    -   
+    -  Uma espécie de staging eterna, onde o dado fica la pra sempre e nunca é deletado.
+
+    - A partir do data lake vamos criar os processamentos
+        - DATA PROCESSING ( BATCH)
+        - DATA FILTERING ( ELT )
+        - MACHINE LEARNING
+        - DATA WAREHOUSE
+        - DATA VIZUALIZATION
+
+     
