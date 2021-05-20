@@ -1,0 +1,18 @@
+EVENT HUB -> STREAM ANALYTICS -> EVENT HUB
+
+
+
+- Este exemplo usa Stream Analytics para processar dados de streaming de EventHub e usa outro Event Hub como um coletor para armazenar dados JSON. 
+
+- Isso é feito para analisar o desempenho de streaming puro do Stream Analytics; nenhuma agregação é feita e os dados são passados ​​o mais rápido possível da entrada para a saída. 
+
+- Os dados são aumentados com a adição de campos adicionais.
+
+- Para suportar um alto THROUGHPUT(alta taxa de transferencia),  dois namespaces de Hubs de eventos diferentes são implantados pelo modelo.
+
+- A capacidade dos Hubs de eventos é limitada a até 20 unidades de 1 MB / s cada (embora esse limite possa ser aumentado por meio de um tíquete de suporte). 
+
+- Se a taxa de transferência de entrada for inferior a 10 MB / s, você poderá implantar duas instâncias do Event Hub em um único namespace.
+
+- 
+

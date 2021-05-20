@@ -1,0 +1,28 @@
+- Fully managed, scalable and ahigly available real time event processing service
+capable of handling millions of events per second.
+
+- Real time analytics and complex event-procesing engine that is designed to analyze and proccess high volumes of 
+fast streaming data from multiple sources simultaneosly.
+
+
+
+- Works exceptionally well in combination with Azure Event Hub and ENABLE 2 main scenarios:
+    - 1. Perform real-time data analytics and immediatly detect and react to special conditions
+    - 2. Save event data to persistent storage for archival or further analysis
+
+- Each stream analytics job consists of:
+    - one or more inputs
+    - a query
+    - one or more outputs
+
+- Available INPUT SOURCES:
+    - EVENTS HUBS
+    - BLOB STORAGE
+
+- Available OUTPUT SINK:
+    - SQL DATABASE
+    - BLOB STORAGE
+    - EVENT HUBS
+    - POWER BI (ALLOWS TO EASILY BUILD REAL-TIME DASHBAORDS)
+    - TABLE STORAGE
+
