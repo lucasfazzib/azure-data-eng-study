@@ -1,0 +1,28 @@
+CORE EXAM DOMAINS
+
+
+IDENTITIES AND GOVERNANCE
+    Managing Azure identitites and governance of Azure Cloud
+
+STORAGE
+    Implementing Azure Storage Solutions
+
+COMPUTE
+    Managing Azure compute resources 
+
+VIRTUAL NETWORKING
+    Configuring Azure virtual networkings Solutions
+
+MONITOR AND BACKUP
+    Implementing monitoring solutions and configuring backup services for disaster recovery
+
+
+
+TIPS
+
+Compounding services for total solutions
+40-60 questions in 120 minutes 
+Score to pass is 700 -> 70%
+
+
+%
